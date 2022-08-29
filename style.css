@@ -1,0 +1,972 @@
+body {
+    background-image: url("./Images/background.png");
+    position: fixed;
+    /* border: 3px solid black; */
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: repeat-x;
+}
+
+.bg-img {
+
+    height: 100%;
+    /* background-repeat: repeat-x; */
+}
+
+.bg-img img {
+    height: 100%;
+    width: 100%;
+    /* z-index: -1; */
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-weight:bold;
+    color: rgb(248, 204, 10);
+    font-size: 55px;
+}
+p{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bird {
+    position: fixed;
+    top: 0;
+    left: 4%;
+    width: 10%;
+    /* border: 2px solid gray; */
+}
+
+
+.bird-img {
+    width: 100%;
+
+}
+
+
+
+
+
+
+.level {
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+}
+
+.board-1 {
+    position: absolute;
+    top: 34%;
+
+}
+
+.sign-board_1 {
+    position: relative;
+
+    left: 90rem;
+
+}
+
+.raj {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+}
+
+.raj-img {
+    position: relative;
+    left: 110rem;
+}
+
+.place {
+    position: absolute;
+    top: 42%;
+    width: 60%;
+}
+
+.place-img {
+    position: relative;
+    left: 120rem;
+}
+
+.teacher {
+    position: absolute;
+    top: 41%;
+    width: 65%;
+
+}
+
+.teacher-img {
+    position: relative;
+    left: 150rem;
+}
+
+.school {
+    position: absolute;
+    top: 26%;
+    width: 60rem;
+
+
+}
+
+.school-img {
+
+    position: relative;
+    left: 190rem;
+
+}
+
+
+
+
+.college {
+    position: absolute;
+    top: 56%;
+    width: 40rem;
+    z-index: +1;
+}
+
+.college-img {
+
+    position: relative;
+    left: 380rem;
+}
+
+.board-2 {
+    position: absolute;
+    top: 34%;
+
+}
+
+.sign-board_2 {
+    position: relative;
+
+    left: 430rem;
+
+}
+
+.monkey-1 {
+    position: absolute;
+    top: 51%;
+    width: 15rem;
+    z-index: -1;
+}
+
+.monkey-1-img {
+    position: relative;
+    left: 470rem;
+}
+
+.monkey-2 {
+    position: absolute;
+    top: 51%;
+    width: 15rem;
+}
+
+.monkey-2-img {
+    position: relative;
+    left: 485rem;
+
+
+}
+
+.monkey-3 {
+    position: absolute;
+    top: 51%;
+    width: 15rem;
+    
+}
+
+.monkey-3-img {
+    position: relative;
+    left: 500rem;
+z-index: -1
+}
+
+.circle {
+    position: absolute;
+    top: 53%;
+
+}
+
+.circle-img {
+    position: relative;
+    left: 530rem;
+}
+
+
+.spike {
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 575rem;
+    width: 25rem;
+    height: 5rem;
+    top: 81%;
+}
+
+.spike img {
+    /* border: 2px solid greenyellow; */
+    position: relative;
+    left: 0;
+    width: 5rem;
+    animation: anime 6s infinite;
+}
+
+@keyframes anime {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 20rem;
+    }
+
+    100% {
+        left: 0rem;
+    }
+}
+
+.brick-2 {
+    position: absolute;
+    width: 8rem;
+    top: 33%;
+
+}
+
+.brick-2-img {
+    position: relative;
+    left: 580rem;
+}
+
+.brick-3 {
+    position: absolute;
+    width: 8rem;
+    top: 33%;
+
+}
+
+.brick-3-img {
+    position: relative;
+    left: 588rem;
+}
+
+
+
+.coin {
+    position: absolute;
+    width: 10rem;
+    top: 19%;
+    left: 585rem;
+}
+
+.coin-img {}
+
+.pipe {
+    position: absolute;
+    width: 10rem;
+    top: 63%;
+}
+
+.pipe-img {
+    position: relative;
+    left: 600rem;
+}
+
+.bri {
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 60rem;
+    /* display: flex; */
+    top: 33%;
+    left: 640rem;
+    height: 8rem;
+}
+
+.bri img {
+    width: 7rem;
+
+}
+
+.brick-4 {
+    /* margin: 0 8rem; */
+    position: absolute;
+    left: 0rem;
+
+}
+
+.question-1 {
+
+    position: absolute;
+    left: 6.5rem;
+}
+
+.question-1.noshow {
+
+    display: none;
+
+}
+
+.brick-5 {
+    position: absolute;
+    /* margin-right: 8rem; */
+    left: 13rem;
+}
+
+.question-2 {
+    position: absolute;
+    left: 19.5rem;
+
+}
+
+.question-2.noshow {
+    display: none;
+
+}
+
+.brick-6 {
+    position: absolute;
+    left: 26rem;
+    /* margin-right: 8rem; */
+}
+
+.question-3 {
+    position: absolute;
+    left: 32.5rem;
+}
+
+.question-3.noshow {
+    display: none;
+
+}
+
+.brick-7 {
+
+    position: absolute;
+    left: 39rem;
+    /* margin-right: 8rem; */
+}
+
+.question-4 {
+    position: absolute;
+    left: 45.5rem;
+}
+
+.question-4.noshow {
+    display: none;
+
+}
+
+.brick-8 {
+    position: absolute;
+    left: 52rem;
+}
+
+.fire {
+    position: absolute;
+
+    top: 19rem;
+    width: 72rem;
+    /* border: 2px solid black; */
+    left: 640rem;
+    height: 10rem;
+}
+
+
+
+.fire img {
+    width: 9rem;
+
+}
+
+.fire-1 {
+    position: relative;
+    left: 6rem;
+    display: none;
+
+
+}
+
+.fire-1.show {
+    display: inline;
+}
+
+.fire-2 {
+    position: relative;
+    left: 19rem;
+    display: none;
+    /* border: 2px solid black; */
+}
+
+.fire-2.show {
+    display: inline;
+}
+
+.fire-3 {
+    position: relative;
+    left: 32rem;
+    display: none;
+    /* border: 2px solid green; */
+}
+
+.fire-3.show {
+    display: inline;
+}
+
+.fire-4 {
+    /* border: 2px solid black; */
+    position: relative;
+    left: 45rem;
+    display: none;
+}
+
+.fire-4.show {
+    display: inline;
+}
+
+.dev {
+    position: absolute;
+    display: inline;
+    top: 10rem;
+    left: 640rem;
+    width: 60rem;
+    /* border: 2px solid yellow; */
+    height: 8rem;
+}
+
+.dev img {
+    width: 8rem;
+}
+
+.html {
+    position: relative;
+    top: 10rem;
+    left: 6rem;
+    opacity: 0;
+    transition: transform 5s;
+}
+
+.html.show {
+    transform: translateY(-10rem);
+}
+
+.css {
+    position: relative;
+    top: 10rem;
+    left: 12rem;
+    opacity: 0;
+    transition: transform 5s;
+}
+
+.css.show {
+    transform: translateY(-10rem);
+}
+
+.js {
+    position: relative;
+    top: 10rem;
+    left: 16rem;
+    opacity: 0;
+    transition: transform 5s;
+}
+
+.js.show {
+    transform: translateY(-10rem);
+}
+
+.postgre {
+    position: relative;
+    left: 22rem;
+    top: 10rem;
+    opacity: 0;
+    transition: transform 5s;
+}
+
+.postgre.show {
+    transform: translateY(-10rem);
+}
+
+
+.board-3 {
+    position: absolute;
+    top: 34%;
+}
+
+.board-3-img {
+    position: relative;
+    left: 740rem;
+    z-index: -1;
+}
+
+
+.board-4 {
+    position: absolute;
+    top: 34%;
+}
+
+.board-4-img {
+    position: relative;
+    left: 880rem;
+    z-index: -1;
+}
+
+.internship {
+    position: absolute;
+    /* border: 2px solid black; */
+    display: flex;
+    top: 22rem;
+    left: 800rem;
+    z-index: -1;
+}
+
+.leuphana {
+    margin-left: 20rem;
+    scale: 1.3;
+    position: relative;
+    top: -4rem;
+    z-index: -1;
+}
+
+.nlp {
+    position: relative;
+    top: 1.5rem;
+    /* scale: .9; */
+}
+
+.project {
+    position: absolute;
+    display: flex;
+    top: 24rem;
+    /* border: 2px solid black; */
+    left: 920rem;
+    width: 80rem;
+    height: 30rem;
+}
+
+.project img {
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+@keyframes elephant1-anime {
+
+    0% {
+        left: 0rem;
+    }
+
+    50% {
+        left: 30rem;
+    }
+
+    100% {
+        left: 0rem;
+    }
+
+}
+
+
+@keyframes elephant2-anime {
+
+    0% {
+        left: 30rem;
+    }
+
+    50% {
+        left: 10rem;
+    }
+
+    100% {
+        left: 30rem;
+    }
+
+}
+
+
+.moses {
+
+    position: relative;
+    animation: elephant1-anime 8s infinite;
+    z-index: -1;
+
+}
+
+.kpi {
+    position: relative;
+    scale: 1.3;
+    top: -4.5rem;
+    animation: elephant2-anime 8s infinite;
+    z-index: -1;
+}
+
+.paper {
+    position: absolute;
+    top: 4rem;
+    width: 20rem;
+    left: 950rem;
+    z-index: 2;
+}
+.paper::before{
+    content: "";
+    position: absolute;
+    left: -0.25rem;
+    top: -0.25rem;
+    width: 20.5rem;
+    height: 20.5rem;
+    background: black;
+    z-index: -1;
+    border-radius: 50%;
+    display: none;
+}
+.paper:hover::before{
+    display: block;
+}
+
+.publication {
+    
+}
+
+.board-5 {
+    position: absolute;
+    top: 34%;
+    /* border: 2px solid black; */
+
+}
+
+.board-5-img {
+    position: relative;
+    left: 1030rem;
+    z-index: -1;
+
+
+}
+
+
+.trophy {
+    position: absolute;
+    top: 34rem;
+    width: 20rem;
+    left: 1080rem;
+    z-index: -1;
+}
+
+
+.achievments-1 {
+    /* border: 2px solid black; */
+
+    position: absolute;
+    width: 70rem;
+    height: 30rem;
+    top: 3rem;
+    left: 1120rem;
+}
+
+.achievments-1 img{
+    width: 30rem;
+    height: 20rem;
+}
+
+.daad {
+    position: relative;
+    left: 0rem;
+    animation: daadAnimate 4s infinite;
+}
+
+.kaggle {
+    position: relative;
+    left: 10rem;
+    animation: kaggleAnimate 4s infinite;
+}
+
+@keyframes kaggleAnimate {
+    0%{
+        top: 0rem;
+    }
+
+    50%{
+        top: 10rem;
+    }
+
+    100%{
+        top: 0rem;
+    }
+}
+
+
+@keyframes daadAnimate {
+    0%{
+        top: 10rem;
+    }
+
+    50%{
+        top: 0rem;
+    }
+
+    100%{
+        top: 10rem;
+    }
+}
+
+
+.finish {
+    position: absolute;
+    top: 22rem;
+
+}
+
+.finish-img {
+    position: relative;
+    left: 1180rem;
+    z-index: -1;
+}
+
+.daad {
+    /* scale: .7; */
+}
+
+.kaggle {
+    /* scale: 0.6; */
+}
+
+.name {
+    position: absolute;
+    top: 24rem;
+    left: 35rem;
+    width: 50rem;
+    /* border: 2px solid greenyellow; */
+}
+
+.name-img {
+    text-align: center;
+    /* border: 2px solid greenyellow; */
+}
+
+.marks {
+    position: absolute;
+    top: 90%;
+    left: 290rem;
+    display: flex;
+    /* border: 1px solid black; */
+    transition: top 3s;
+
+}
+
+.class-10 {
+    margin: 0 2rem;
+}
+
+.class-12 {
+    margin: 0 2rem;
+}
+
+.jee-img {
+    margin: 0 2rem;
+}
+
+.marks.fly {
+    top: 8%;
+}
+
+.flag-img {
+    /* border: 1px solid black; */
+    position: relative;
+    top: -4.5rem;
+    left: 3rem;
+    scale: 1.7;
+}
+
+
+
+
+.mountain {
+    position: absolute;
+    width: 30rem;
+    top: -47%;
+    z-index: -100;
+    transition: top 1s;
+}
+
+.mountain-img {
+    position: relative;
+    left: 360rem;
+}
+
+.mountain.move {
+    top: 47%;
+}
+
+
+#mario {
+    position: absolute;
+    /* border: 2px solid black; */
+    bottom: 10%;
+    width: 180px;
+    height: 212px;
+}
+
+#mario img {
+    width: 180px;
+    height: 212px
+}
+
+#mario.move-right{
+    background-image: url("./Images/right\ sprite.png");
+    animation: move-right 960ms steps(12) infinite;
+}
+@keyframes move-right{
+    from{background-position-x:0px;}
+      to{background-position-x:-2160px;}
+}
+
+#mario.move-left{
+    background-image: url("./Images/left\ sprite.png");
+    animation: move-left 960ms steps(12) infinite;
+}
+@keyframes move-left{
+    from{background-position-x:0px;}
+      to{background-position-x:-2160px;}
+
+
+}
+
+#mario.up {
+    
+    bottom: 65%;
+
+}
+
+.jump{
+    animation : jumpAnime .9s 4
+}
+
+@keyframes jumpAnime{
+    0% {
+        bottom: 10%;
+    }
+    35% {
+        bottom: 25%;
+    }
+    100% {
+        bottom: 10%;
+    }
+}
+
+.home-town{
+    /* border: 2px solid black; */
+    width: 20rem;
+    position: absolute;
+    top: 32rem;
+    left: 130rem;
+}
+
+.school-name-div{
+    position: absolute;
+    top: 30rem;
+    /* border: 2px solid black; */
+    left: 150rem;
+    width: 20rem;
+}
+
+.school-name{
+   
+}
+
+.college-name{
+    /* border: 2px solid black; */
+    width: 30rem;
+    position: absolute;
+    top: 27rem;
+    left: 390rem;
+    text-align: center;
+}
+
+.language{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 13rem;
+    left:450rem;
+    width: 30rem;
+}
+
+.cpp{
+position: absolute;
+top: 25rem;
+left: 474rem;
+}
+
+.python{
+position: absolute;
+top: 28rem;
+left: 487rem;
+}
+
+.javascript{
+position: absolute;
+top: 25rem;
+left: 505rem;
+}
+
+.core{
+    position: absolute;
+    top: 20rem;
+    left: 540rem ;
+}
+
+.development{
+    position: absolute;
+    top: 14rem;
+    left: 610rem;
+}
+
+.finish-text{
+    position: absolute;
+    top: 25rem;
+    left: 1230rem;
+    z-index: +1;
+}
+
+.instruction  {
+
+    position: absolute;
+    bottom: 1rem;
+    /* border: 2px solid gray; */
+    left: 45rem;
+    
+
+}
+
+.instruction p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.profiles{
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 20rem;
+    height: 5rem;
+    left: 100rem;
+    
+}
+
+.profiles img{
+    width: 6rem;
+}
+
+.github{
+    position: relative;
+    
+}
+
+.leetcode{
+    position: relative;
+    }
+
+.linkedin{
+    position: relative;
+    
+}
